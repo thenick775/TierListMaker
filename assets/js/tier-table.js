@@ -213,7 +213,7 @@ function generateTable(identifier, count = -1) {
           const drop_zone = ev.currentTarget;
 
           if (ev.target instanceof HTMLImageElement) {
-            ev.target.parentNode.insertBefore(el, ev.target.nextSibling);
+            ev.target.parentNode.insertBefore(el, ev.target);
           } else {
             drop_zone.appendChild(el);
           }
