@@ -2,6 +2,8 @@
 
 A fun side-project to make tier lists in your browser.
 
+[Try it live!](https://thenick775.github.io/TierListMaker/)
+
 ## Features
 
 - drag-to-upload (one or more images)
