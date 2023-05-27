@@ -15,10 +15,10 @@ A fun side-project to make tier lists in your browser.
 - everything stays in your browser, nothing is uploaded to the server: you keep your data
 - dynamic tier names
 
-## Launching
+## Getting Started
 
 ```shell
-git clone https://github.com/SuperFola/TierListMaker.git
+git clone https://github.com/thenick775/TierListMaker.git
 cd TierListMaker/
 python -m http.server
 ```
