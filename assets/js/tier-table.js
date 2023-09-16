@@ -17,18 +17,6 @@ function createFAElement(kind, name) {
   return element;
 }
 
-function tierNumberFromId(tier_id) {
-  const suffix = tier_id.replace(/^tier-/, "");
-  const id = tiers
-    .map((value, idx) => [value.toLowerCase(), idx])
-    .filter((tuple) => {
-      const [value, _] = tuple;
-      return value === suffix;
-    })[0][1];
-
-  return id;
-}
-
 function moveRowUp(row_id, table_id) {
   const table = document.getElementById(table_id);
   const row = document.getElementById(row_id);
